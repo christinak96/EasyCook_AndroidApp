@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Lemony Grilled Salmon"
+            android:textAlignment="center"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="180dp"
+            android:layout_height="160dp"
+            android:layout_marginLeft="90dp"
+
+            app:srcCompat="@drawable/salmon" />
+
+        <TextView
+
+            android:id="@+id/beerDEscriptionTitle1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="    INGREDIENTS\n"
+            android:textSize="18dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/beerTitle1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:ems="10"
+            android:text=" ● 4 6-oz. skin-on salmon fillets\n\n
+● Extra-virgin olive oil, for brushing\n\n
+● kosher salt\n\n
+● Freshly ground black pepper\n\n
+● 2 lemons, sliced\n\n
+● 2 tbsp. butter\n\n"
+            android:textSize="15sp"
+
+            android:textStyle="bold"></TextView>
+
+        <View
+            android:id="@+id/divider1"
+            android:layout_width="wrap_content"
+            android:layout_height="4dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="30dp"
+            android:background="@android:color/holo_green_dark" />
+
+        <TextView
+            android:id="@+id/bDEscriptionTitle1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="\n    DIRECTIONS\n "
+            android:textSize="18dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/beescription1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:ems="10"
+            android:text=" 1. Heat grill to high.\n\n
+2. Brush salmon with oil and season with salt and pepper.\n\n
+3. Add salmon and lemon slices and grill until salmon is cooked through and lemons are charred for 5 minutes per side.\n\n
+4. Add a pat of butter to salmon right when it’s off the grill and top with grilled lemons.\n\n
+..now Serve.!\n\n "
+            android:textSize="15sp"></TextView>
+
+        <Button
+            android:id="@+id/but2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginBottom="10dp"
+            android:onClick="go2pasta"
+            android:text="Next recipe" />
+
+    </LinearLayout>
+
+</ScrollView>

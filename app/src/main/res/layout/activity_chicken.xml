@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/scrollview"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Chicken Curry"
+            android:textAlignment="center"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="180dp"
+            android:layout_height="160dp"
+            android:layout_marginLeft="90dp"
+
+            app:srcCompat="@drawable/curry" />
+
+
+        <TextView
+
+            android:id="@+id/beerDEscriptionTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="    INGREDIENTS\n"
+            android:textSize="18dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/beerTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="         ● 2 tbsp. extra-virgin olive oil\n\n
+        ● 1 medium yellow onion, chopped\n\n
+        ● 2 lb. boneless skinless chicken breasts\n\n
+        ● 3 cloves garlic, minced\n\n
+        ● 1 tbsp. minced ginger\n\n
+        ● 1 tsp. paprika\n\n
+        ● 1 tsp. ground turmeric\n\n
+        ● 1 tsp. ground coriander\n\n
+        ● 1/2 tsp. ground cumin\n\n
+        ● 1 (15-oz.) can crushed tomatoes\n\n
+        ● 1 1/2 c. low-sodium chicken broth\n\n
+        ● 1/2 c. heavy cream\n\n
+        ● Kosher salt\n\n
+        ● Freshly ground black pepper\n\n
+        ● Basmati rice or naan, for serving\n\n
+        ● 1 tbsp. freshly chopped cilantro, f0r garnish\n\n"
+            android:textSize="15sp"
+            android:textStyle="bold"
+
+            ></TextView>
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="wrap_content"
+            android:layout_height="4dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="30dp"
+            android:background="@android:color/holo_green_dark" />
+
+        <TextView
+            android:id="@+id/bDEscriptionTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="\n    DIRECTIONS\n "
+            android:textSize="18dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/beescription"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:ems="10"
+            android:text=" 1. In a large pot over medium-high heat, heat oil.\n\n
+2. Add onion and cook until soft, 5 minutes.\n\n
+3. Add chicken and sear until no pink remains for 5 minutes.\n\n
+4. Stir in garlic and ginger and cook until fragrant, 1 minute.\n\n
+5. Add spices and cook until very fragrant, 1 minute.\n\n
+6. Add tomatoes and broth and bring to a simmer.\n\n
+7. Stir in heavy cream, and season with salt and pepper.\n\n
+8. Simmer until chicken pieces are cooked through and tender, about 10 minutes.\n\n
+9. Serve over rice or with naan, garnished with cilantro.\n\n "
+            android:textSize="15sp"></TextView>
+
+        <Button
+            android:id="@+id/but1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginBottom="10dp"
+            android:onClick="go2next"
+            android:text="Next recipe" />
+    </LinearLayout>
+</ScrollView>

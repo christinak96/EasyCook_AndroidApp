@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pastaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Easy Pasta Carbonara"
+            android:textAlignment="center"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="180dp"
+            android:layout_height="160dp"
+            android:layout_marginLeft="90dp"
+
+            app:srcCompat="@drawable/carbonara" />
+
+        <TextView
+            android:id="@+id/beerDEscriptionTitle2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="    INGREDIENTS\n"
+            android:textSize="18dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/beerTitle2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:ems="10"
+            android:text=" ● 12 oz. spaghetti\n\n
+● Kosher salt\n\n
+● 3 large eggs\n\n
+● 1 c. freshly grated Parmesan\n\n
+● 8 slices bacon\n\n
+● 2 cloves garlic, minced\n\n
+● Freshly ground black pepper\n\n
+● Extra-virgin olive oil (optional), for garnish\n\n
+● Flaky sea salt (optional), for garnish\n\n
+● Freshly chopped parsley, for garnish\n\n"
+            android:textSize="15sp"
+
+            android:textStyle="bold"></TextView>
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="wrap_content"
+            android:layout_height="4dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="30dp"
+            android:background="@android:color/holo_green_dark" />
+
+        <TextView
+            android:id="@+id/bDEscriptionTitle2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="\n    DIRECTIONS\n "
+            android:textSize="18dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/beescription2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="20dp"
+            android:ems="20"
+            android:text="  1. In a large pot of salted boiling water, cook spaghetti according to package directions until al dente.Drain, reserving 1 cup pasta water.\n\n
+2. In a medium bowl, whisk eggs and Parmesan until combined.\n\n
+3. Meanwhile, in a large skillet over medium heat, cook bacon until crispy, about 8 minutes.\n\n
+4. Reserve fat in skillet and transfer slices to a paper towel-lined plate to drain.\n\n
+5. To the same skillet, add garlic and cook until fragrant, about 1 minutes.\n\n
+6. Add cooked spaghetti and toss until fully coated in bacon fat. Remove from heat. Pour over egg and cheese mixture and stir vigorously until creamy (be careful not to scramble eggs).\n\n
+7. Add pasta water a couple tablespoons a time to loosen sauce if necessary.\n\n
+8. Season generously with salt and pepper and stir in cooked bacon.\n\n
+9. Drizzle with olive oil and garnish with flaky sea salt, Parmesan, and parsley before serving./n/n"
+            android:textSize="15sp"></TextView>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

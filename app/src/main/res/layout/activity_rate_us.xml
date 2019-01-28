@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RateUsActivity">
+
+
+    <TextView
+        android:id="@+id/textRate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Would you like to rate us?"
+        android:textColor="#F90B52"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="88dp" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="178dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Would you use this app again?"
+        android:textColor="#F90B52" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioGroup
+                android:id="@+id/group1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radioButton1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Yes" />
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="No" />
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/submit1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="displayMessage1"
+                android:text="submit" />
+
+        </TableRow>
+
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/background_dark" />
+
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Did you like this app?"
+        android:textColor="#F90B52" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioGroup
+                android:id="@+id/group2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radioButton3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Yes" />
+
+                <RadioButton
+                    android:id="@+id/radioButton4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="No" />
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/submit2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="displayMessage2"
+                android:text="submit" />
+
+        </TableRow>
+
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/background_dark" />
+
+
+    </TableLayout>
+
+</LinearLayout>

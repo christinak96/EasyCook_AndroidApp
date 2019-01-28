@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Easy Cook</string>
+    <string name="home">Home</string>
+    <string name="recipes">Recipes</string>
+    <string name="about">About</string>
+    <string name="title_activity_recipes">Recipes</string>
+    <string name="title_activity_about">About Us</string>
+    <string name="about_us_text">Do you have only few ingredients at home and don’t know what to make? Easy Cook is a recipe search engine that finds recipes you can make with the ingredients you currently have at home.</string>
+    <string name="help_text">How do I add my ingredients?"\n"Adding your ingredients is done by selecting your ingredients one by one and then click on Done button. For best results,add all the ingredients you have in your home.</string>
+</resources>

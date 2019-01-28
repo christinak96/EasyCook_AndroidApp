@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/Chicken"
+        android:title="Recipes"
+        app:showAsAction="never"
+        android:orderInCategory="1"/>
+
+    <item
+        android:id="@+id/WebView"
+        android:title="More recipes"
+        app:showAsAction="never"
+        android:orderInCategory="2"/>
+
+    <item
+        android:id="@+id/Userinfo"
+        android:title="User Info"
+        app:showAsAction="never"
+        android:orderInCategory="3"/>
+    <item
+        android:id="@+id/About"
+        android:title="About Us"
+        app:showAsAction="never"
+        android:orderInCategory="4"/>
+
+    <item
+        android:id="@+id/ContactUs"
+        android:title="Contact Us"
+        app:showAsAction="never"
+        android:orderInCategory="5"/>
+
+    <item
+        android:id="@+id/RateUs"
+        android:title="Rate Us"
+        app:showAsAction="never"
+        android:orderInCategory="6"/>
+
+
+
+</menu>
